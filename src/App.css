@@ -8,6 +8,12 @@
       font-weight: 900;
       src: local('Pokemon Solid'), url(./fonts/Pokemon\ Solid.ttf) format('truetype');
   }
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    font-weight: 300;
+    src: local('Pokemon Solid'), url(./fonts/Pokemon\ Solid.ttf) format('truetype');
+}
   
 @font-face {
       font-family: 'Pokemon Hollow';
