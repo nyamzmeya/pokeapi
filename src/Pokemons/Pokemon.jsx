@@ -8,7 +8,7 @@ const Pokemon = (props) => {
     return (
         <div className= {s.pokemon}>
             <NavLink to= {`/pokemon/` + id}>
-            <img src={`https://pokeres.bastionbot.org/images/pokemon/${id}.png`} alt=""/>
+            <img src={`https://img.pokemondb.net/artwork/${props.name}.jpg`} alt=""/>
             </NavLink>
             <div className= {s.name}>
             {props.name}

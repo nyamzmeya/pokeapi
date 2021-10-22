@@ -29,7 +29,7 @@ class PokemonComponent extends React.Component {
             <div className= {s.page}>
                 <div className={s.content}>
                     <div className={s.pokemon}>
-                    <img src={`https://pokeres.bastionbot.org/images/pokemon/${this.id}.png`} alt=""/>
+                    <img src={`https://img.pokemondb.net/artwork/${this.props.data.name}.jpg`} alt=""/>
                     <div className={s.descr}>
                         <span>Name: {this.props.data.name}</span>
                         <span>Height: {this.props.data.height}</span>
